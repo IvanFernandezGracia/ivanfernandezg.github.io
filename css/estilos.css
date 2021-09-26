@@ -1,0 +1,670 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  font-family: "Open Sans";
+  font-size: 16px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* ----- ----- ----- ----- ----- */
+
+/* ----- ----- HEADER ----- ----- */
+
+/* ----- ----- ----- ----- ----- */
+
+header {
+  background: url("../assets/img/ImageHeader.png"), black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: cover;
+  max-height: 600px;
+  width: 100%;
+}
+
+header .menu {
+  margin-top: 20px;
+  margin-bottom: 600px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 0.1em white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+header .menu .navegacion a {
+  margin: 0.1em 20px;
+  color: #fff;
+  padding-bottom: 2px;
+  font-size: 2.2em;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header .menu .navegacion a:hover {
+  border-bottom: 2px solid #fff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-weight: bold;
+}
+
+header .menu .logo-menu a {
+  margin: 0.1em 20px;
+  color: #fff;
+  padding-bottom: 2px;
+  font-size: 2.2em;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+/* ----- ----- ----- ----- ----- */
+
+/* ----- ----- MAIN ----- ----- */
+
+/* ----- ----- ----- ----- ----- */
+
+.main .contenedor {
+  overflow: visible;
+}
+
+.main .logo-header {
+  text-align: center;
+}
+
+.main .logo-header .foto {
+  margin-top: -19rem;
+}
+
+.main .logo-header .foto img {
+  vertical-align: top;
+  width: 30%;
+}
+
+.main .logo-header .texto {
+  color: #5a5a5a;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 30px;
+  width: 80%;
+  margin: 15px auto 60px auto;
+  animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+
+.main .logo-header .texto .titulo {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main .logo-header .texto .profesion {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+.main .Biography {
+  margin-bottom: 3em;
+}
+
+.main .Biography .contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.main .Biography .contenedor .text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.main .Biography .contenedor .video {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.titulo-biography {
+  color: rgb(255, 255, 255);
+  margin-bottom: 1em;
+  color: #D18C26
+}
+
+.main .Biography .contenedor .text p {
+  color: #F50073;
+  margin: 0 1em 0 1em;
+  text-align: justify;
+}
+
+.videoYoutube {
+  width: 90%;
+  height: 300px;
+  margin: 0 1em 0 1em;
+  border: solid 0.1em rgba(245, 0, 115, 0.5);
+  ;
+}
+
+/* ----- ----- ----- ----- ----- */
+
+/* ----- ----- FOOTER ----- ----- */
+
+/* ----- ----- ----- ----- ----- */
+
+footer .redes-sociales {
+  background: #F50073;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgb(245, 0, 115, 0) 33%, rgb(245, 0, 115, 0) 61%, rgba(0, 0, 0, 1) 100%), linear-gradient(to top, #F50073 0%, #F50073 33%, #F50073 71%, rgba(0, 0, 0, 1) 100%);
+  padding: 30px 0;
+}
+
+footer .redes-sociales .contenedor {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .redes-sociales .contenedor a {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  display: block;
+  margin: 10px;
+  border-radius: 20%;
+  width: 10%;
+}
+
+footer .redes-sociales .contenedor .github:hover {
+  background: #000000;
+}
+
+footer .redes-sociales .contenedor .instagram:hover {
+  background: #833ab4;
+}
+
+footer .redes-sociales .contenedor .linkedin:hover {
+  background: #0077b5;
+}
+
+footer .redes-sociales .contenedor .whatapp:hover {
+  background: #25d366;
+}
+
+footer .redes-sociales .contenedor .gmail:hover {
+  background: #dd4b39;
+}
+
+.fa-gmail {
+  content: url('assets/images/gmail.svg');
+  height: 1em;
+  width: auto;
+}
+
+/* ----- ----- ----- ----- ----- */
+
+/* ----- ----- MEDIA QUERIES ----- ----- */
+
+/* ----- ----- ----- ----- ----- */
+
+@media screen and (min-width: 1500px) {
+  .project:hover {
+    transform: scale(1.35);
+    /* background-color: rgb(255, 255, 255, 1); */
+    background-color: rgb(0, 0, 0);
+
+  }
+  .project:hover  > .contenedor-projectos  {
+    background-color: rgb(0, 0, 0);
+  }
+  .project:hover  > .contenedor-projectos .extracto {
+    display: block;
+    color: rgb(255, 255, 255, 1);
+  }
+
+  .project:hover  > .contenedor-projectos .encabezado {
+    background-color: rgb(0, 0, 0);
+
+  }
+  
+  .project:hover  > .contenedor-projectos .enlaces-github{
+    background-color: rgb(0, 0, 0);
+
+  }
+  .main .enlaces-github a:hover .fa-github {
+    color: #ffffff;
+  }
+
+}
+
+@media screen and (max-width: 1500px) {
+  .main .enlaces-github a:hover .fa-github {
+    color: #000000;
+  }
+}
+@media screen and (max-width: 800px) {
+  header .menu {
+    text-align: center;
+  }
+  .main .logo-header .foto {
+    margin-top: -23rem;
+  }
+  .main .logo-header .foto img {
+    width: 50%;
+  }
+  .main .logo-header .texto {
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 0.8em;
+    padding: 0.7em;
+    border-color: rgb(255, 255, 255, 1);
+    border-width: 0.1em;
+    border-style: solid;
+  }
+  .main .logo-header .texto {
+    overflow: hidden;
+  }
+  /* .main .trabajos .contenedor-trabajos .trabajo {
+    width: 46%;
+  } */
+  .main .Biography .contenedor {
+    flex-direction: column;
+  }
+  .main .Biography .contenedor .text {
+    width: 100%;
+  }
+  .main .Biography .contenedor .video {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main .logo-header .texto {
+    font-size: 1em;
+  }
+  .main .logo-header .texto .profesion {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo-menu {
+    display: none;
+  }
+  header .menu {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
+
+.main .list-project {
+  margin-top: -23rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: stretch;
+}
+
+.project {
+  width: 30%;
+  margin-bottom: 1.5em;
+  transition: transform 300ms ease 100ms;
+}
+
+.contenedor-projectos {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  margin: auto;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255, 0.85);
+}
+
+/* .thumb {
+  /* border-bottom: solid; */
+
+
+.info {
+  margin: 1em;
+  height: 30%;
+}
+
+.titulo-project {
+  margin-bottom: 0.5em;
+  color: #F50073
+}
+
+.extracto {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  text-align: justify;
+  border-bottom: solid 0.1em rgba(245, 0, 115, 0.5);
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  display:none
+}
+
+.main .enlaces-github {
+  text-align: center;
+  margin: 0 1em 1em 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main .enlaces-github a {
+  color: #909090;
+  margin-right: 0.55em;
+  margin-left: 0.55em;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  font-size: 2em;
+}
+
+/* .main .enlaces-github a:hover .fa-github {
+  color: #ffffff;
+} */
+
+.main .enlaces-github a:hover .fa-play-circle {
+  color: rgb(62, 131, 62);
+}
+
+@media screen and (max-width: 1015px) {
+  .main .logo-header .texto .titulo {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    line-height: 2.5rem;
+  }
+  .main .logo-header .texto .profesion {
+    font-size: 1.5rem;
+  }
+  .main .list-project {
+    flex-direction: column;
+    align-content: center;
+  }
+  .project {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+}
+
+.main .tech-project {
+  text-align: justify;
+}
+
+.main .tech-project a {
+  display: inline-block;
+  color: #909090;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.main .tech-project a:hover {
+  color: #F50073;
+}
+
+@keyframes pulsate {
+  100% {
+    /* Larger blur radius */
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #F50073, 0 0 80px #F50073, 0 0 90px #F50073, 0 0 100px #F50073, 0 0 150px #F50073;
+  }
+  0% {
+    /* A slightly smaller blur radius */
+    text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 18px #fff, 0 0 38px #F50073, 0 0 73px #F50073, 0 0 80px #F50073, 0 0 94px #F50073, 0 0 140px #F50073;
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-9-25 16:12:50
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation focus-in-expand-fwd
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+    transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+    transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.focus-in-expand-fwd {
+  -webkit-animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.body-type {
+  font-family: 'Gemunu Libre', sans-serif;
+  font-weight: 1000;
+  font-size: 50px;
+  padding: 20px;
+  color: #F50073;
+}
+
+.type {
+  color: #0000;
+  background: linear-gradient(-90deg, #F50073 5px, #0000 0) 10px 0, linear-gradient(#F50073 0 0) 0 0;
+  background-size: calc(var(--n)*1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  animation: b .1s infinite steps(1), t calc(var(--n)*.05s) steps(var(--n)) forwards;
+}
+
+@keyframes t {
+  from {
+    background-size: 0 200%
+  }
+}
+
+@keyframes b {
+  50% {
+    background-position: 0 -100%, 0 0
+  }
+}
+
+.vibrate-1 {
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-9-25 20:46:29
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+.project:hover  > .contenedor-projectos .extracto {
+  display: block;
+}
+
+
+
+.contenedor-tools-icons  a{
+  text-decoration: none;
+}
+.contenedor-tools-icons  a img{
+  transition: transform .2s; 
+  margin-bottom: 1em;/* Animation */
+}
+.contenedor-tools-icons p {
+ background-color: rgb(255,255,255, 0.2);
+ margin :1em;
+ padding:1em;
+ border-radius:0.5em ;
+}
+
+.contenedor-tools-icons  a img:hover{
+  transform: scale(1.5);
+  margin-right: 1em;
+  margin-left: 1em; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
