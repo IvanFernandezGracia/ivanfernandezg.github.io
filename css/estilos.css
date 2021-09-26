@@ -251,6 +251,10 @@ footer .redes-sociales .contenedor .gmail:hover {
     color: rgb(255, 255, 255, 1);
   }
 
+  .project:hover  > .contenedor-projectos .extractoinit {
+    display: none;
+  }
+
   .project:hover  > .contenedor-projectos .encabezado {
     background-color: rgb(0, 0, 0);
 
@@ -381,6 +385,17 @@ footer .redes-sociales .contenedor .gmail:hover {
   font-size: 1.3em;
   font-weight: bold;
   display:none
+}
+
+.extractoinit{
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  text-align: justify;
+  border-bottom: solid 0.1em rgba(245, 0, 115, 0.5);
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  display:block
 }
 
 .main .enlaces-github {
@@ -668,3 +683,4 @@ footer .redes-sociales .contenedor .gmail:hover {
   margin-right: 1em;
   margin-left: 1em; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
